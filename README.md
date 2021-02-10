@@ -2,9 +2,11 @@
 
 This is a simple music player with audio visualizations.
 
+![MusicPlayerImage1](../music-player/src/assets/images/player-image-1.png) ![MusicPlayerImage2](../music-player/src/assets/images/player-image-2.png)
+
 ## Demo
 
-You can view the working example [HERE](http://).
+You can view the working example [HERE](http://music-player-demo.paulinacisek.com).
 
 ## Technologies
 
@@ -35,5 +37,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Resources
 
-- [How To Make An Audio Visualizer with HTML & CSS + JavaScript?](hhttps://www.kkhaydarov.com/audio-visualizer/) - I used this tutorial for the audio visualization part of the music player.
+- [How To Make An Audio Visualizer with HTML & CSS + JavaScript?](https://www.kkhaydarov.com/audio-visualizer/) - I used this tutorial for the audio visualization part of the music player.
 - The audio files in this project are from [Bensound.com](https://www.bensound.com/royalty-free-music).
