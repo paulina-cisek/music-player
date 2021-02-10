@@ -6,7 +6,7 @@ This is a simple music player with audio visualizations.
 
 ## Demo
 
-You can view the working example [HERE](http://music-player-demo.paulinacisek.com).
+You can view the working example [HERE](http://demo-music-player.paulinacisek.com/).
 
 ## Technologies
 
