@@ -2,7 +2,7 @@
 
 This is a simple music player with audio visualizations.
 
-![MusicPlayerImage1](../music-player/src/assets/images/player-image-1.png) ![MusicPlayerImage2](../music-player/src/assets/images/player-image-2.png)
+![MusicPlayerImage1](https://github.com/paulina-cisek/music-player/blob/master/src/assets/images/player-image-1.png?raw=true) ![MusicPlayerImage2](https://github.com/paulina-cisek/music-player/blob/master/src/assets/images/player-image-2.png?raw=true)
 
 ## Demo
 
