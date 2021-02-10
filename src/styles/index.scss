@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+@import './variables';
+@import './theme';
+@import './app';
+@import './player';
+@import './trackControls';
+@import './roundPlayerControls';
+@import './navigation';
+@import './library';
+@import './libraryItem';
+@import './themeToggle';
+@import './favouriteToggle';

@@ -1,0 +1,18 @@
+input[type='checkbox'].fav-checkbox {
+  position: absolute;
+  left: -100vw;
+}
+
+.fav-checkbox-label {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.fav-checkbox-label:hover {
+  color: $hoverColor;
+}
+.fav-checkbox-label.checked,
+.fav-checkbox:checked + .fav-checkbox-label {
+  opacity: 1;
+}

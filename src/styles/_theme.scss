@@ -1,0 +1,75 @@
+.dark-theme {
+  background-color: $mainDarkColor;
+  color: $mainLightColor;
+
+  .round-player-controls-container {
+    background: linear-gradient(145deg, #020b13, #020910);
+  }
+
+  .play-icon-wrapper {
+    background: linear-gradient(145deg, #020b13, #020910);
+    box-shadow: 33px 33px 66px #010407, -33px -33px 66px #03101d;
+    color: $mainLightColor;
+
+    &:active {
+      background: #020a12;
+      box-shadow: inset 33px 33px 66px #010407, inset -33px -33px 66px #03101d;
+    }
+  }
+
+  .player-icon {
+    color: $mainLightColor;
+  }
+
+  .track-info {
+    color: $mainLightColor;
+  }
+
+  .library {
+    box-shadow: 2px 2px 50px #010407;
+    background-color: $mainDarkColor;
+  }
+
+  .fav-checkbox-label {
+    color: $mainLightColor;
+    opacity: 0.3;
+  }
+}
+
+.light-theme {
+  background-color: $mainLightColor;
+  color: $mainDarkColor;
+
+  .round-player-controls-container {
+    background: linear-gradient(145deg, #ffffff, #dbdddf);
+  }
+
+  .play-icon-wrapper {
+    background: linear-gradient(145deg, #ffffff, #dbdddf);
+    box-shadow: 5px 5px 7px #c5c6c9, -5px -5px 7px #ffffff;
+    color: $mainDarkColor;
+
+    &:active {
+      background: #f3f5f8;
+      box-shadow: inset 5px 5px 7px #c5c6c9, inset -5px -5px 7px #ffffff;
+    }
+  }
+
+  .player-icon {
+    color: $mainDarkColor;
+  }
+
+  .track-info {
+    color: $mainDarkColor;
+  }
+
+  .library {
+    box-shadow: 2px 2px 50px rgb(184, 184, 184);
+    background-color: $mainLightColor;
+  }
+
+  .fav-checkbox-label {
+    color: $mainDarkColor;
+    opacity: 0.3;
+  }
+}

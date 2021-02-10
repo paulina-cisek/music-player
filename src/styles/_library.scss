@@ -1,0 +1,51 @@
+.library {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100%;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  h2 {
+    padding: 2rem;
+  }
+
+  .library-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .library-items {
+    overflow: scroll;
+  }
+}
+
+.active-library {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.theme-toggle-wrapper {
+  margin-top: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  align-self: flex-end;
+  width: 100%;
+  min-height: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
+}
