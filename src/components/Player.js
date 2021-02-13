@@ -12,7 +12,10 @@ import RoundPlayerControls, { SKIP_FORWARD } from './RoundPlayerControls';
 
 const visualizations = ['BARS', 'BARS_2', 'DOTS'];
 export const Player = () => {
-  const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 });
+  const isDesktopOrLaptop = useMediaQuery({
+    minDeviceWidth: 1224,
+    minDeviceHeight: 800,
+  });
 
   const analyser = useRef(null);
   const canvasRef = useRef(null);
