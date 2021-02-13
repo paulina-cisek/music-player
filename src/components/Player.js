@@ -103,9 +103,9 @@ export const Player = () => {
       const bars = 100;
       const bar_width = 4;
 
-      const canvasSize = !isDesktopOrLaptop ? 300 : 600;
-      const barHeight = canvasSize === 600 ? 0.7 : 0.3;
-      const radius = canvasSize === 600 ? 100 : 70;
+      const canvasSize = !isDesktopOrLaptop ? 300 : 550;
+      const barHeight = canvasSize === 550 ? 0.7 : 0.3;
+      const radius = canvasSize === 550 ? 100 : 70;
 
       let canvas = canvasRef.current;
       canvas.width = canvasSize;
@@ -207,7 +207,7 @@ export const Player = () => {
     <React.Fragment>
       <div className='player-container'>
         {isDesktopOrLaptop ? (
-          <canvas ref={canvasRef} width={600} height={600} />
+          <canvas ref={canvasRef} width={550} height={550} />
         ) : (
           <canvas ref={canvasRef} width={300} height={300} />
         )}
